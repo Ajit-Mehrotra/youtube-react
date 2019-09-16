@@ -6,7 +6,7 @@ class App extends React.Component {
     return (
       <React.Fragment>
         <HeaderNav />
-        <SideBar />
+        <SideBar/>
       </React.Fragment>
     );
   }
