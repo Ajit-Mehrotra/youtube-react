@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SideBar renders 1`] = `
+<Menu
+  borderless={true}
+  className="side-nav"
+  fixed="left"
+  stackable={true}
+  vertical={true}
+>
+  <SideBarItem
+    highlight={true}
+    icon="home"
+    label="Home"
+  />
+  <SideBarItem
+    icon="fire"
+    label="Trending"
+  />
+  <SideBarItem
+    icon="spy"
+    label="Following"
+  />
+  <Divider />
+  <SideBarHeader
+    title="Library"
+  />
+  <SideBarItem
+    icon="history"
+    label="History"
+  />
+  <SideBarItem
+    icon="clock"
+    label="Watch Later"
+  />
+  <SideBarItem
+    icon="thumbs up"
+    label="Liked Videos"
+  />
+  <Divider />
+  <Subscriptions />
+  <SideBarHeader
+    title="More From Youtube"
+  />
+  <SideBarItem
+    icon="film"
+    label="Moves and Shows"
+  />
+  <Divider />
+  <SideBarItem
+    icon=" flag"
+    label="Report history"
+  />
+  <SideBarItem
+    icon="help circle"
+    label="Help"
+  />
+  <SideBarItem
+    icon="comment"
+    label="Send Feedback"
+  />
+  <Divider />
+  <SideBarFooter />
+</Menu>
+`;

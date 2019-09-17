@@ -23,7 +23,6 @@ export class SideBar extends React.Component{
 <SideBarItem label ='Liked Videos' icon='thumbs up'/>
 <Divider/>
 <Subscriptions/>
-
 <SideBarHeader title='More From Youtube'/>
 <SideBarItem label ='Moves and Shows' icon='film'/>
 <Divider/>
