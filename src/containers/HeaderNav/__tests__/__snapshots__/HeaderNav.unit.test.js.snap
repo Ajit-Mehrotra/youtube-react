@@ -44,7 +44,7 @@ exports[`renders HeaderNav 1`] = `
       <Icon
         as="i"
         className="header-icon"
-        name="video-camera"
+        name="camera"
         size="large"
       />
     </MenuItem>
@@ -52,7 +52,7 @@ exports[`renders HeaderNav 1`] = `
       <Icon
         as="i"
         className="header-icon"
-        name="grid-layout"
+        name="gitlab"
         size="large"
       />
     </MenuItem>

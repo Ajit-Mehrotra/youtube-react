@@ -48,7 +48,7 @@ exports[`SideBar renders 1`] = `
   />
   <Divider />
   <SideBarItem
-    icon=" flag"
+    icon="flag"
     label="Report history"
   />
   <SideBarItem

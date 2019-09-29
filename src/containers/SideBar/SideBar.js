@@ -26,7 +26,7 @@ export class SideBar extends React.Component{
 <SideBarHeader title='More From Youtube'/>
 <SideBarItem label ='Moves and Shows' icon='film'/>
 <Divider/>
-<SideBarItem label ='Report history' icon=' flag'/>
+<SideBarItem label ='Report history' icon='flag'/>
 <SideBarItem label ='Help' icon='help circle'/>
 <SideBarItem label ='Send Feedback' icon='comment'/>
 <Divider/>

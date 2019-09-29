@@ -23,10 +23,10 @@ export class HeaderNav extends React.Component {
 
         <Menu.Menu position='right'>
             <Menu.Item>
-                <Icon className='header-icon' name='video-camera' size='large'/>
+                <Icon className='header-icon' name='camera' size='large'/>
                  </Menu.Item>
                  <Menu.Item>
-                <Icon className='header-icon' name='grid-layout' size='large'/>
+                <Icon className='header-icon' name='gitlab' size='large'/>
                  </Menu.Item>
                  <Menu.Item>
                 <Icon className='header-icon' name='chat' size='large'/>
