@@ -1,8 +1,19 @@
-@import '../../styles/shared.scss';
+@import "../../styles/shared.scss";
 
 .video-preview {
   display: grid;
   grid: 118px auto / 210px;
+
+  // Override the grid settings in order to make VideoPreview horizontal. Vertical is set as default
+
+  &.horizontal {
+    grid: auto/ 210px auto;
+    column-gap: 4px;
+    .video-info {
+      grid-row: 1 / 2;
+      grid-column: 2 / 3;
+    }
+  }
 }
 
 .video-info {
@@ -13,7 +24,7 @@
   .video-preview-metadata-container {
     padding-top: 5px;
     font-size: 13px;
-    color: #6E6E6E;
+    color: #6e6e6e;
 
     .channel-title {
       white-space: nowrap;
